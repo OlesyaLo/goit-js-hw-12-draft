@@ -113,6 +113,30 @@ input:hover {
   line-height: 2;
 }
 
+.gallery-load-btn {
+  display: flex;
+  align-items: center;
+
+  width: auto;
+  height: 40px;
+  border: 0px;
+  border-radius: 8px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 16px;
+
+  letter-spacing: 0.04em;
+  background-color: #4e75ff;
+  color: #fff;
+
+  animation: none;
+}
+
+.hidden {
+  display: none;
+}
+
 .loader {
   margin-top: 60px;
   margin-left: auto;
@@ -127,6 +151,11 @@ input:hover {
   justify-content: center;
 
   animation: rotation 1s linear infinite;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
 }
 
 @keyframes rotation {
